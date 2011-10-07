@@ -236,8 +236,8 @@ class Location
 # ## document.location => Location
 #
 # document.location is same as window.location
-html.HTMLDocument.prototype.__defineGetter__ "location", -> @parentWindow.location
-html.HTMLDocument.prototype.__defineSetter__ "location", (value)-> @parentWindow.location = value
+#html.HTMLDocument.prototype.__defineGetter__ "location", -> @parentWindow.location
+#html.HTMLDocument.prototype.__defineSetter__ "location", (value)-> @parentWindow.location = value
 
 
 exports.History = History
